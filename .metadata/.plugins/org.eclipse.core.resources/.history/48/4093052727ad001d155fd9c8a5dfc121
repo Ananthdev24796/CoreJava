@@ -1,0 +1,15 @@
+package com.bridgelabz;
+
+public class TestDefault {
+	
+	void m1() {
+		System.out.println("M1 method");
+	}
+	
+	public static void main(String[] args) {
+		TestDefault  t = new TestDefault();
+		t.m1();
+		
+	}
+
+}

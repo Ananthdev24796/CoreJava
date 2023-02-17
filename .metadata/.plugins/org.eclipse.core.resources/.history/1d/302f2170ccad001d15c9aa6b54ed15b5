@@ -1,0 +1,23 @@
+package com.bridgelabz;
+
+public class SuperClassExample {
+			  int a = 10;
+			  int b = 20;
+			}
+
+class ChildClass extends SuperClassExample{
+		int a = 100;
+		int b = 200;
+		
+		
+		public void add(int a , int b) {
+			System.out.println(a+b);
+			System.out.println(this.a+this.b);
+			System.out.println(super.a+super.b);
+			
+			
+		}
+		public static void main(String[] args) {
+			
+		}
+}

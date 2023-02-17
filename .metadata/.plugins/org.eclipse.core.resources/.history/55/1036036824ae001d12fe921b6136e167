@@ -1,0 +1,17 @@
+package com.bridgelabz;
+
+public class ExceptionHandlingExamples2 {
+	
+	void status(int age) {
+		if (age > 18) {
+			System.out.println("Eligible to vote");
+			
+		}
+		else {
+			 new 
+		}
+	}
+	
+	
+
+}

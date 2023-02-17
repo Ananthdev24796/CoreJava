@@ -1,0 +1,48 @@
+package com.bridgelabz;
+
+public class TestDefaultValue {
+
+	// instance variables
+	
+//	int a = 10;
+//	char ch = 'B';
+//	float f = 10.5f;
+//	double b = 3.5444;
+//	boolean bol = true;
+	
+//	int a ;
+//	char ch ;
+//	float f ;
+//	double b;
+//	boolean bol;
+	
+	
+//	public static void main(String [] args) {
+//		TestDefaultValue testDefaultValue = new TestDefaultValue();
+//		System.out.println(testDefaultValue.a +" "+testDefaultValue.ch + " "+testDefaultValue.f+ " "+testDefaultValue.b+" "+testDefaultValue.bol);
+//		
+//	}
+	
+//	// static variables
+//		 static int a ;
+//		 static char ch ;
+//		static float f ;
+//		static double b;
+//	    static 	boolean bol;
+//	    
+//	    public static void main(String [] args) {
+//	    	System.out.println(TestDefaultValue.a+ " "+ TestDefaultValue.ch+" "+TestDefaultValue.f+" "+TestDefaultValue.b+" "+TestDefaultValue.bol);
+//	    	
+//	    }
+	
+	// local variables
+	public static void main(String[] args) {
+		int a  ;
+		int b;
+		System.out.println(a);
+		
+	}
+		
+	
+
+}

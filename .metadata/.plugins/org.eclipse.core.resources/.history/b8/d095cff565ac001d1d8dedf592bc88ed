@@ -1,0 +1,18 @@
+package com.bridgelabz;
+
+public class Test {
+
+	Test(){
+		System.out.println("constructor");
+	}
+	Test(int a ){
+		System.out.println(" para constructor");
+	}
+	// Instance block
+	{
+		System.out.println("Instance block");
+	}
+	public static void main(String[] args) {
+		Test t = new Test();
+		new Test(7);}
+}

@@ -1,0 +1,29 @@
+package com.bridgelabz;
+
+public class Parent {
+	// overriden method
+	void method1() {   
+		System.out.println("Parent method");
+	}
+}
+	
+	class Child extends Parent{
+		
+		// overridinfg method
+		void method1() {
+			System.out.println("child method");
+		}
+		
+		void method2() {
+			System.out.println("derived method in child class");
+		}
+	
+	
+	public static void main(String[] args) {
+		Parent p = new Child();
+		p.method1();
+		Child c = (Child)p; 
+		c.method2();
+	}
+
+}

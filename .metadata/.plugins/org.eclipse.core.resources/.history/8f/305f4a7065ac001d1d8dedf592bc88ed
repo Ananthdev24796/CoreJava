@@ -1,0 +1,14 @@
+package com.bridgelabz;
+
+public class Emp {
+	int empId;
+	
+	void displayEmpId() {
+		System.out.println(empId);
+	}
+	public static void main(String[] args) {
+		Emp emp = new Emp();
+		emp.empId();
+	}
+
+}

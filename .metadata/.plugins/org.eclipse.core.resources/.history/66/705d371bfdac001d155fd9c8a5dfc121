@@ -1,0 +1,29 @@
+package com.bridgelabz;
+
+public class TestFinal1 {
+	
+	
+	// instance variable 
+	int a = 100;
+	// static variable
+	static int b = 200 ;
+	
+	// static method
+	public static void main(String[] args ) {  // main method
+		TestFinal1 t1 = new TestFinal1(); 
+		System.out.println(t1.a);
+		System.out.println(TestFinal1.b);
+		t1.a = 99;
+		t1.b=98;
+		System.out.println(t1.a);
+		System.out.println(TestFinal1.b);
+		
+		TestFinal1 t2 = new TestFinal1();
+		System.out.println(t1.a);
+		System.out.println(TestFinal1.b);
+		
+		
+	}
+	
+
+}

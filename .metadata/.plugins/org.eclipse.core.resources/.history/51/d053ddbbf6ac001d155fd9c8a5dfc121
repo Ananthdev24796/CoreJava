@@ -1,0 +1,15 @@
+package com.bridgelabz;
+
+public class TestFinal {
+
+	int a = 10;
+	int b = 11;
+	
+	static int c = 12;
+	static int d = 13;
+	
+	void printM1() {
+		System.out.println(TestFinal.a);
+	}
+	
+}

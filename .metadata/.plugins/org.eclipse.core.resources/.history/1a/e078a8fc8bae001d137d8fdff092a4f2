@@ -1,0 +1,14 @@
+package com.bridgelabz;
+
+public class ConstructorOverLoadingExample {
+	
+	ConstructorOverLoadingExample(int a){
+		System.out.println("1 arg constructor");
+	}
+	
+	ConstructorOverLoadingExample(char ch){
+		System.out.println("1 arge constructor char");
+	}
+	ConstructorOverLoadingExample(int a ,int b)
+
+}

@@ -1,0 +1,25 @@
+package com.bridgelabz;
+
+public class LinearSearch {
+	
+	public static void main(String[] args) {
+		int[] array = {1,4,7,9,11,15,17};
+		int key = 11;
+		int i = 0;
+		
+		System.out.println(array.length);
+		while(i < array.length) {
+			if(key == array[i]) {
+				System.out.println(key + "Key is present at position"+ i);
+				break;
+			}
+				i=i+1;
+		
+		
+		}
+		if (i == array.length);
+		System.out.println(key+ " is not present in the array");
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.bridgelabz;
+
+public class Vehicle {
+	
+	 void travel() {
+		System.out.println("Vehicle is used to travel");
+		
+	}
+
+}

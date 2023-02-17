@@ -1,0 +1,26 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class ExceptionHandlingExamples2 {
+	
+	 public void status(int age) throws InvalidAgeException {
+		if (age > 18) {
+			System.out.println("Eligible to vote");
+			
+		}
+		else {
+			  throw new InvalidAgeException();
+		}
+	}
+	
+	public static void main(String[] args) {
+		ExceptionHandlingExamples2 t = new ExceptionHandlingExamples2();
+		Scanner sc = new Scanner(System.in);
+		int age =sc.nextInt();
+		t.status(25);
+	}
+	
+	
+
+}

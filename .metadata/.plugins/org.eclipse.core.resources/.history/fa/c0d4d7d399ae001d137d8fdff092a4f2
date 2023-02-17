@@ -1,0 +1,14 @@
+package com.bridgelabz;
+
+public class Aeroplane extends Vehicle{
+	 
+//	Aeroplane travel() {
+//		System.out.println("Aeroplane is used to travel  fast");
+//		return new Aeroplane();
+//	}
+	
+	public static void main(String[] args) {
+		new Aeroplane().travel();
+	}
+
+}

@@ -1,0 +1,23 @@
+// Methods retuns objects
+package com.bridgelabz;
+
+public class TestMethods6 {
+	
+	
+	Emp m1() {
+		System.out.println("M1 method");
+		Emp e = new Emp();
+		return e;	
+		}
+	
+	X m2() {
+		System.out.println("M2 method");
+		X x = new X();
+		return x;
+		
+		
+	}
+	
+	
+
+}

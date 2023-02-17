@@ -1,0 +1,15 @@
+package com.bridgelabz;
+
+public class MethodOverLoadingExample {
+	
+	
+	// Method overloading
+	
+	int methodAdd(int a,int b) {
+		
+		return a+b;
+	}
+	
+	void methodAdd()
+
+}

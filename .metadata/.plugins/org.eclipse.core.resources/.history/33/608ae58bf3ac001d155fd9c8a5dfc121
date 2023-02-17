@@ -1,0 +1,17 @@
+package com.bridgelabz;
+
+public class TestDefaultValue {
+	int a = 10;
+	char ch = 'B';
+	float f = 10.5f;
+	double b = 3.5444;
+	boolean bol = true;
+	
+	public static void main(String [] args) {
+		TestDefaultValue testDefaultValue = new TestDefaultValue();
+		System.out.println(testDefaultValue.a +" "+testDefaultValue.ch + " "+testDefaultValue.f+ " "+testDefaultValue.b+" "+testDefaultValue.bol);
+		
+	}
+	
+
+}

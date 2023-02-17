@@ -1,0 +1,33 @@
+package com.bridgelabz;
+
+public class TestFinal {
+
+	int a = 10;
+	int b = 11;
+	
+	static int c = 12;
+	static int d = 13;
+	
+	void printM1() {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+	}
+	
+	static void printM2() {
+		TestFinal t = new TestFinal();
+		System.out.println("Inside Static method print m2");
+		System.out.println(t.a);
+		System.out.println(t.b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+	public static void main(String[] args) {
+		TestFinal testFinal = new TestFinal();
+		testFinal.printM1();
+		testFinal.printM2();
+ 	}
+	
+}

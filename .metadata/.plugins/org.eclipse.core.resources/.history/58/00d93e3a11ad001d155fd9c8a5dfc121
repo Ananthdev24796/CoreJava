@@ -1,0 +1,17 @@
+package com.bridgelabz;
+
+public class TestMethods3 {
+	
+	// instance method
+	void  m1(X x , Emp e) {
+		System.out.println("M1 method");
+	}
+	
+	// static methods 
+	static void m2(Y y,Student s)
+	{
+		System.out.println("M2 methods");
+		
+	}
+
+}

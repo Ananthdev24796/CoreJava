@@ -1,0 +1,18 @@
+package com.bridgelabz;
+
+public class Largest {
+	
+	int array[] = {3,6,25,2,56,76};
+	
+	public int findLargest() {
+		int max = array[0];
+		
+		for(int i=1;i<array.length;i++)
+			if(array[i] > max)
+				max = array[i];
+	
+			return max;
+	}
+	
+
+}

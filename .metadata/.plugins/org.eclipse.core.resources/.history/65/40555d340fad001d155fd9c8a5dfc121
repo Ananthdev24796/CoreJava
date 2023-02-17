@@ -1,0 +1,23 @@
+package com.bridgelabz;
+
+public class TestMethods2 {
+
+	// Instance method 
+		void newmethod(int a , int b ) {
+			System.out.println("Instance method");
+			System.out.println(a);
+			System.out.println(b);
+		}
+		// Static method
+		 static void newmethod1(String s,char c) {
+			 System.out.println("static method");
+			 System.out.println(s);
+			System.out.println(c);
+		 }
+		 public static void main(String[] args) {
+			 TestMethod1 t = new TestMethod1();
+			 t.newmethod(7,9);
+			 TestMethod1.newmethod1("core",'j');
+		}
+
+}

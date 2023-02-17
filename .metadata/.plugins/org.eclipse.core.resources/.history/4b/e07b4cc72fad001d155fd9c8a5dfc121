@@ -1,0 +1,16 @@
+package com.bridgelabz;
+
+public class Test1 {
+	
+	int empid;
+	String empname;
+	float empsalary;
+	
+	void display() {
+		System.out.println("employee id :"+ empid);
+		System.out.println("employee name :"+ empname);
+		System.out.println("employee salary :"+ empsalary);
+	}
+	
+
+}

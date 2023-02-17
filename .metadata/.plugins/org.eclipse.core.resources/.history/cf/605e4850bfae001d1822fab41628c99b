@@ -1,0 +1,11 @@
+package com.bridgelabz;
+
+public abstract class AbstractExample {
+	
+	abstract void method1();
+	abstract void method2();
+	abstract void method3();
+
+	
+
+}

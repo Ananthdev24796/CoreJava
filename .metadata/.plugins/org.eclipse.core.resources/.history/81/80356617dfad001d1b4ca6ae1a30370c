@@ -1,0 +1,9 @@
+package com.bridgelabz;
+
+public class LinearSearch {
+	
+	int[] array = { 1,4,7,9,11,15,17};
+	int key = 17;
+	
+	if(key == array[i]);
+}
